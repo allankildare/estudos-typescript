@@ -1,17 +1,27 @@
-// string | number eh um tipo de union type
-function concat(input1, input2, resultConversion) {
-    var result;
-    if (typeof input1 === 'number' && typeof input2 === 'number' || resultConversion === 'as number') {
-        result = +input1 + +input2;
-    }
-    else {
-        result = input1.toString() + input2.toString();
-    }
-    return result;
+//                                  : tipando o retorno da funcao
+function add(n1, n2) {
+    return n1 + n2;
 }
-var sumNumbers = concat(1, 3, 'as number');
-console.log(sumNumbers);
-sumNumbers = concat('10', '5', 'as number');
-console.log(sumNumbers);
-var addNames = concat('Allan', 'Kildare', 'as text');
-console.log(addNames);
+function printResult(num) {
+    console.log('Result: ' + num);
+}
+function addAndHandle(n1, n2, cb) {
+    var result = n1 + n2;
+    cb(result);
+}
+printResult(add(5, 12));
+var combinedValues;
+combinedValues = add;
+// combinedValues = printResult
+console.log(combinedValues(8, 8));
+addAndHandle(10, 20, function (result) {
+    console.log(result);
+});
+function sendRequest(data, cb) {
+    // ... sending a request with "data"
+    return cb({ data: 'Hi there!' });
+}
+sendRequest('Send this!', function (response) {
+    console.log(response);
+    return true;
+});
