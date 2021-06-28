@@ -3,3 +3,4 @@ var button = document.querySelector('button');
 button.addEventListener('click', function () {
     console.log('Fui clicado :)');
 });
+//# sourceMappingURL=app.js.map

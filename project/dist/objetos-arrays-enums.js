@@ -12,3 +12,4 @@ var person = {
     role: Role.ADMIN
 };
 console.log(person);
+//# sourceMappingURL=objetos-arrays-enums.js.map

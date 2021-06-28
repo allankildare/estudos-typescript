@@ -16,3 +16,4 @@ sumNumbers = concat("10", "5", "as number");
 console.log(sumNumbers);
 var addNames = concat("Allan", "Kildare", "as text");
 console.log(addNames);
+//# sourceMappingURL=union-aliases.js.map

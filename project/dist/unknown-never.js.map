@@ -1,0 +1,1 @@
+{"version":3,"file":"unknown-never.js","sourceRoot":"","sources":["../src/unknown-never.ts"],"names":[],"mappings":";AAAA,IAAI,SAAkB,CAAA;AACtB,IAAI,QAAgB,CAAA;AAEpB,SAAS,GAAG,CAAC,CAAA;AACb,SAAS,GAAG,OAAO,CAAA;AAGnB,SAAS,aAAa,CAAC,OAAe,EAAE,IAAY;IAChD,MAAM,EAAE,OAAO,EAAE,OAAO,EAAE,SAAS,EAAE,IAAI,EAAE,CAAA;AAC/C,CAAC;AAED,aAAa,CAAC,4BAA4B,EAAE,GAAG,CAAC,CAAA"}

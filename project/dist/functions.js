@@ -23,3 +23,4 @@ sendRequest('Send this!', function (response) {
     console.log(response);
     return true;
 });
+//# sourceMappingURL=functions.js.map
