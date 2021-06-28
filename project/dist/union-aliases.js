@@ -1,5 +1,4 @@
 "use strict";
-// string | number eh um tipo de union type
 function concat(input1, input2, resultConversion) {
     var result;
     if ((typeof input1 === "number" && typeof input2 === "number") ||

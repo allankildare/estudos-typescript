@@ -1,5 +1,4 @@
 "use strict";
-//              1          2        3
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = 1] = "ADMIN";
@@ -13,6 +12,3 @@ var person = {
     role: Role.ADMIN
 };
 console.log(person);
-/*
-TUPLE: array de tamanho e tipo fixo, constante
-*/ 
